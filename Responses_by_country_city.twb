@@ -1,0 +1,2609 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook original-version='18.1' source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='globalcount_data' inline='true' name='federated.1txub5c0nalh0l1g4wc8s17ph6yv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='globalcount_data' name='textscan.1ncwnuv1lpe4vi15y0pa8196jh5f'>
+            <connection class='textscan' directory='C:/Users/kwanv/Documents/Programming/Projects/Datathon' filename='globalcount_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ncwnuv1lpe4vi15y0pa8196jh5f' name='globalcount_data.csv' table='[globalcount_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='row_id' ordinal='0' />
+            <column datatype='real' name='unique_id' ordinal='1' />
+            <column datatype='string' name='survey_type' ordinal='2' />
+            <column datatype='string' name='iso3166' ordinal='3' />
+            <column datatype='datetime' name='surveydate' ordinal='4' />
+            <column datatype='string' name='city_town' ordinal='5' />
+            <column datatype='string' name='city_town_tr' ordinal='6' />
+            <column datatype='string' name='country_of_residence' ordinal='7' />
+            <column datatype='integer' name='gender_not_listed' ordinal='8' />
+            <column datatype='integer' name='cisgender_man' ordinal='9' />
+            <column datatype='integer' name='cisgender_woman' ordinal='10' />
+            <column datatype='integer' name='non_conforming_or_non_binary' ordinal='11' />
+            <column datatype='integer' name='gender_choose_not_to_identify' ordinal='12' />
+            <column datatype='integer' name='man' ordinal='13' />
+            <column datatype='integer' name='transgender_man' ordinal='14' />
+            <column datatype='integer' name='transgender_woman' ordinal='15' />
+            <column datatype='integer' name='woman' ordinal='16' />
+            <column datatype='integer' name='racial_identity_not_listed' ordinal='17' />
+            <column datatype='integer' name='asian' ordinal='18' />
+            <column datatype='integer' name='biracial_or_mixed' ordinal='19' />
+            <column datatype='integer' name='black_or_of_african_descent' ordinal='20' />
+            <column datatype='integer' name='hispanic_or_latinx' ordinal='21' />
+            <column datatype='integer' name='choose_not_to_identify' ordinal='22' />
+            <column datatype='integer' name='indigenous' ordinal='23' />
+            <column datatype='integer' name='indigenous_central_or_south_american' ordinal='24' />
+            <column datatype='integer' name='middle_eastern' ordinal='25' />
+            <column datatype='integer' name='native_american' ordinal='26' />
+            <column datatype='integer' name='native_hawaiian' ordinal='27' />
+            <column datatype='integer' name='north_african' ordinal='28' />
+            <column datatype='integer' name='pacific_islander' ordinal='29' />
+            <column datatype='integer' name='south_asian' ordinal='30' />
+            <column datatype='integer' name='southeast_asian' ordinal='31' />
+            <column datatype='integer' name='white' ordinal='32' />
+            <column datatype='string' name='age' ordinal='33' />
+            <column datatype='integer' name='issue_person_civil_rights_and_freedoms' ordinal='34' />
+            <column datatype='integer' name='issue_person_disability_rights' ordinal='35' />
+            <column datatype='integer' name='issue_person_economic_and_workers_rights' ordinal='36' />
+            <column datatype='integer' name='issue_person_education_and_youth_empowerment' ordinal='37' />
+            <column datatype='integer' name='issue_person_ending_violence_harassment_and_abuse' ordinal='38' />
+            <column datatype='integer' name='issue_person_environmental_justice' ordinal='39' />
+            <column datatype='integer' name='issue_person_immigrant_and_refugee_rights' ordinal='40' />
+            <column datatype='integer' name='issue_person_indigenous_andor_roma_rights' ordinal='41' />
+            <column datatype='integer' name='issue_person_LGBTQI+_rights' ordinal='42' />
+            <column datatype='integer' name='issue_person_racial_equity' ordinal='43' />
+            <column datatype='integer' name='issue_person_reproductive_freedom_and_bodily_autonomy' ordinal='44' />
+            <column datatype='integer' name='issue_person_sexual_reproductive_and_parental_health' ordinal='45' />
+            <column datatype='string' name='barrier_person_civil_rights_and_freedoms' ordinal='46' />
+            <column datatype='string' name='barrier_person_disability_rights' ordinal='47' />
+            <column datatype='string' name='barrier_person_economic_and_workers_rights' ordinal='48' />
+            <column datatype='string' name='barrier_person_education_and_youth_empowerment' ordinal='49' />
+            <column datatype='string' name='barrier_person_ending_violence_harassment_and_abuse' ordinal='50' />
+            <column datatype='string' name='barrier_person_environmental_justice' ordinal='51' />
+            <column datatype='string' name='barrier_person_immigrant_and_refugee_rights' ordinal='52' />
+            <column datatype='string' name='barrier_person_indigenous_andor_roma_rights' ordinal='53' />
+            <column datatype='string' name='barrier_person_LGBTQI+_rights' ordinal='54' />
+            <column datatype='string' name='barrier_racial_equity' ordinal='55' />
+            <column datatype='string' name='barrier_person_reproductive_freedom_and_bodily_autonomy' ordinal='56' />
+            <column datatype='string' name='barrier_person_sexual_reproductive_and_parental_health' ordinal='57' />
+            <column datatype='integer' name='issue_city_civil_rights_and_freedoms' ordinal='58' />
+            <column datatype='integer' name='issue_city_disability_rights' ordinal='59' />
+            <column datatype='integer' name='issue_city_economic_and_workers_rights' ordinal='60' />
+            <column datatype='integer' name='issue_city_education_and_youth_empowerment' ordinal='61' />
+            <column datatype='integer' name='issue_city_ending_violence_harassment_and_abuse' ordinal='62' />
+            <column datatype='integer' name='issue_city_environmental_justice' ordinal='63' />
+            <column datatype='integer' name='issue_city_immigrant_and_refugee_rights' ordinal='64' />
+            <column datatype='integer' name='issue_city_indigenous_andor_roma_rights' ordinal='65' />
+            <column datatype='integer' name='issue_city_LGBTQI+_rights' ordinal='66' />
+            <column datatype='integer' name='issue_city_racial_equity' ordinal='67' />
+            <column datatype='integer' name='issue_city_reproductive_freedom_and_bodily_autonomy' ordinal='68' />
+            <column datatype='integer' name='issue_city_sexual_reproductive_and_parental_health' ordinal='69' />
+            <column datatype='string' name='barrier_city_civil_rights_and_freedoms' ordinal='70' />
+            <column datatype='string' name='barrier_city_disability_rights' ordinal='71' />
+            <column datatype='string' name='barrier_city_economic_and_workers_rights' ordinal='72' />
+            <column datatype='string' name='barrier_city_education_and_youth_empowerment' ordinal='73' />
+            <column datatype='string' name='barrier_city_ending_violence_harassment_and_abuse' ordinal='74' />
+            <column datatype='string' name='barrier_city_environmental_justice' ordinal='75' />
+            <column datatype='string' name='barrier_city_immigrant_and_refugee_rights' ordinal='76' />
+            <column datatype='string' name='barrier_city_indigenous_andor_roma_rights' ordinal='77' />
+            <column datatype='string' name='barrier_city_LGBTQI+_rights' ordinal='78' />
+            <column datatype='string' name='barrier_city_racial_equity' ordinal='79' />
+            <column datatype='string' name='barrier_city_reproductive_freedom_and_bodily_autonomy' ordinal='80' />
+            <column datatype='string' name='barrier_city_sexual_reproductive_and_parental_health' ordinal='81' />
+            <column datatype='string' name='npo_1' ordinal='82' />
+            <column datatype='string' name='npo_2' ordinal='83' />
+            <column datatype='string' name='npo_3' ordinal='84' />
+            <column datatype='string' name='progress_10_years' ordinal='85' />
+            <column datatype='string' name='npo_1_tr' ordinal='86' />
+            <column datatype='string' name='npo_2_tr' ordinal='87' />
+            <column datatype='string' name='npo_3_tr' ordinal='88' />
+            <column datatype='string' name='progress_10_years_tr' ordinal='89' />
+            <column datatype='string' name='language' ordinal='90' />
+            <column datatype='real' name='langauge_score' ordinal='91' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ncwnuv1lpe4vi15y0pa8196jh5f' name='globalcount_data.csv' table='[globalcount_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='row_id' ordinal='0' />
+            <column datatype='real' name='unique_id' ordinal='1' />
+            <column datatype='string' name='survey_type' ordinal='2' />
+            <column datatype='string' name='iso3166' ordinal='3' />
+            <column datatype='datetime' name='surveydate' ordinal='4' />
+            <column datatype='string' name='city_town' ordinal='5' />
+            <column datatype='string' name='city_town_tr' ordinal='6' />
+            <column datatype='string' name='country_of_residence' ordinal='7' />
+            <column datatype='integer' name='gender_not_listed' ordinal='8' />
+            <column datatype='integer' name='cisgender_man' ordinal='9' />
+            <column datatype='integer' name='cisgender_woman' ordinal='10' />
+            <column datatype='integer' name='non_conforming_or_non_binary' ordinal='11' />
+            <column datatype='integer' name='gender_choose_not_to_identify' ordinal='12' />
+            <column datatype='integer' name='man' ordinal='13' />
+            <column datatype='integer' name='transgender_man' ordinal='14' />
+            <column datatype='integer' name='transgender_woman' ordinal='15' />
+            <column datatype='integer' name='woman' ordinal='16' />
+            <column datatype='integer' name='racial_identity_not_listed' ordinal='17' />
+            <column datatype='integer' name='asian' ordinal='18' />
+            <column datatype='integer' name='biracial_or_mixed' ordinal='19' />
+            <column datatype='integer' name='black_or_of_african_descent' ordinal='20' />
+            <column datatype='integer' name='hispanic_or_latinx' ordinal='21' />
+            <column datatype='integer' name='choose_not_to_identify' ordinal='22' />
+            <column datatype='integer' name='indigenous' ordinal='23' />
+            <column datatype='integer' name='indigenous_central_or_south_american' ordinal='24' />
+            <column datatype='integer' name='middle_eastern' ordinal='25' />
+            <column datatype='integer' name='native_american' ordinal='26' />
+            <column datatype='integer' name='native_hawaiian' ordinal='27' />
+            <column datatype='integer' name='north_african' ordinal='28' />
+            <column datatype='integer' name='pacific_islander' ordinal='29' />
+            <column datatype='integer' name='south_asian' ordinal='30' />
+            <column datatype='integer' name='southeast_asian' ordinal='31' />
+            <column datatype='integer' name='white' ordinal='32' />
+            <column datatype='string' name='age' ordinal='33' />
+            <column datatype='integer' name='issue_person_civil_rights_and_freedoms' ordinal='34' />
+            <column datatype='integer' name='issue_person_disability_rights' ordinal='35' />
+            <column datatype='integer' name='issue_person_economic_and_workers_rights' ordinal='36' />
+            <column datatype='integer' name='issue_person_education_and_youth_empowerment' ordinal='37' />
+            <column datatype='integer' name='issue_person_ending_violence_harassment_and_abuse' ordinal='38' />
+            <column datatype='integer' name='issue_person_environmental_justice' ordinal='39' />
+            <column datatype='integer' name='issue_person_immigrant_and_refugee_rights' ordinal='40' />
+            <column datatype='integer' name='issue_person_indigenous_andor_roma_rights' ordinal='41' />
+            <column datatype='integer' name='issue_person_LGBTQI+_rights' ordinal='42' />
+            <column datatype='integer' name='issue_person_racial_equity' ordinal='43' />
+            <column datatype='integer' name='issue_person_reproductive_freedom_and_bodily_autonomy' ordinal='44' />
+            <column datatype='integer' name='issue_person_sexual_reproductive_and_parental_health' ordinal='45' />
+            <column datatype='string' name='barrier_person_civil_rights_and_freedoms' ordinal='46' />
+            <column datatype='string' name='barrier_person_disability_rights' ordinal='47' />
+            <column datatype='string' name='barrier_person_economic_and_workers_rights' ordinal='48' />
+            <column datatype='string' name='barrier_person_education_and_youth_empowerment' ordinal='49' />
+            <column datatype='string' name='barrier_person_ending_violence_harassment_and_abuse' ordinal='50' />
+            <column datatype='string' name='barrier_person_environmental_justice' ordinal='51' />
+            <column datatype='string' name='barrier_person_immigrant_and_refugee_rights' ordinal='52' />
+            <column datatype='string' name='barrier_person_indigenous_andor_roma_rights' ordinal='53' />
+            <column datatype='string' name='barrier_person_LGBTQI+_rights' ordinal='54' />
+            <column datatype='string' name='barrier_racial_equity' ordinal='55' />
+            <column datatype='string' name='barrier_person_reproductive_freedom_and_bodily_autonomy' ordinal='56' />
+            <column datatype='string' name='barrier_person_sexual_reproductive_and_parental_health' ordinal='57' />
+            <column datatype='integer' name='issue_city_civil_rights_and_freedoms' ordinal='58' />
+            <column datatype='integer' name='issue_city_disability_rights' ordinal='59' />
+            <column datatype='integer' name='issue_city_economic_and_workers_rights' ordinal='60' />
+            <column datatype='integer' name='issue_city_education_and_youth_empowerment' ordinal='61' />
+            <column datatype='integer' name='issue_city_ending_violence_harassment_and_abuse' ordinal='62' />
+            <column datatype='integer' name='issue_city_environmental_justice' ordinal='63' />
+            <column datatype='integer' name='issue_city_immigrant_and_refugee_rights' ordinal='64' />
+            <column datatype='integer' name='issue_city_indigenous_andor_roma_rights' ordinal='65' />
+            <column datatype='integer' name='issue_city_LGBTQI+_rights' ordinal='66' />
+            <column datatype='integer' name='issue_city_racial_equity' ordinal='67' />
+            <column datatype='integer' name='issue_city_reproductive_freedom_and_bodily_autonomy' ordinal='68' />
+            <column datatype='integer' name='issue_city_sexual_reproductive_and_parental_health' ordinal='69' />
+            <column datatype='string' name='barrier_city_civil_rights_and_freedoms' ordinal='70' />
+            <column datatype='string' name='barrier_city_disability_rights' ordinal='71' />
+            <column datatype='string' name='barrier_city_economic_and_workers_rights' ordinal='72' />
+            <column datatype='string' name='barrier_city_education_and_youth_empowerment' ordinal='73' />
+            <column datatype='string' name='barrier_city_ending_violence_harassment_and_abuse' ordinal='74' />
+            <column datatype='string' name='barrier_city_environmental_justice' ordinal='75' />
+            <column datatype='string' name='barrier_city_immigrant_and_refugee_rights' ordinal='76' />
+            <column datatype='string' name='barrier_city_indigenous_andor_roma_rights' ordinal='77' />
+            <column datatype='string' name='barrier_city_LGBTQI+_rights' ordinal='78' />
+            <column datatype='string' name='barrier_city_racial_equity' ordinal='79' />
+            <column datatype='string' name='barrier_city_reproductive_freedom_and_bodily_autonomy' ordinal='80' />
+            <column datatype='string' name='barrier_city_sexual_reproductive_and_parental_health' ordinal='81' />
+            <column datatype='string' name='npo_1' ordinal='82' />
+            <column datatype='string' name='npo_2' ordinal='83' />
+            <column datatype='string' name='npo_3' ordinal='84' />
+            <column datatype='string' name='progress_10_years' ordinal='85' />
+            <column datatype='string' name='npo_1_tr' ordinal='86' />
+            <column datatype='string' name='npo_2_tr' ordinal='87' />
+            <column datatype='string' name='npo_3_tr' ordinal='88' />
+            <column datatype='string' name='progress_10_years_tr' ordinal='89' />
+            <column datatype='string' name='language' ordinal='90' />
+            <column datatype='real' name='langauge_score' ordinal='91' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>row_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[row_id]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>row_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unique_id</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[unique_id]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>unique_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>survey_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[survey_type]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>survey_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iso3166</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[iso3166]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>iso3166</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>surveydate</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[surveydate]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>surveydate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city_town</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city_town]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>city_town</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city_town_tr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city_town_tr]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>city_town_tr</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_of_residence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_of_residence]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>country_of_residence</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender_not_listed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gender_not_listed]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>gender_not_listed</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cisgender_man</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cisgender_man]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>cisgender_man</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cisgender_woman</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cisgender_woman]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>cisgender_woman</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>non_conforming_or_non_binary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[non_conforming_or_non_binary]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>non_conforming_or_non_binary</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender_choose_not_to_identify</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gender_choose_not_to_identify]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>gender_choose_not_to_identify</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>man</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[man]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>man</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transgender_man</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[transgender_man]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>transgender_man</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transgender_woman</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[transgender_woman]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>transgender_woman</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>woman</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[woman]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>woman</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>racial_identity_not_listed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[racial_identity_not_listed]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>racial_identity_not_listed</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>asian</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[asian]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>asian</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biracial_or_mixed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[biracial_or_mixed]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>biracial_or_mixed</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>black_or_of_african_descent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[black_or_of_african_descent]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>black_or_of_african_descent</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hispanic_or_latinx</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hispanic_or_latinx]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>hispanic_or_latinx</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>choose_not_to_identify</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[choose_not_to_identify]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>choose_not_to_identify</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>indigenous</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[indigenous]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>indigenous</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>indigenous_central_or_south_american</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[indigenous_central_or_south_american]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>indigenous_central_or_south_american</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>middle_eastern</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[middle_eastern]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>middle_eastern</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>native_american</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[native_american]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>native_american</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>native_hawaiian</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[native_hawaiian]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>native_hawaiian</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>north_african</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[north_african]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>north_african</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pacific_islander</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pacific_islander]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>pacific_islander</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>south_asian</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[south_asian]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>south_asian</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>southeast_asian</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[southeast_asian]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>southeast_asian</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>white</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[white]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>white</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_civil_rights_and_freedoms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_civil_rights_and_freedoms]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_civil_rights_and_freedoms</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_disability_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_disability_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_disability_rights</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_economic_and_workers_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_economic_and_workers_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_economic_and_workers_rights</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_education_and_youth_empowerment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_education_and_youth_empowerment]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_education_and_youth_empowerment</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_ending_violence_harassment_and_abuse</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_ending_violence_harassment_and_abuse]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_ending_violence_harassment_and_abuse</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_environmental_justice</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_environmental_justice]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_environmental_justice</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_immigrant_and_refugee_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_immigrant_and_refugee_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_immigrant_and_refugee_rights</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_indigenous_andor_roma_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_indigenous_andor_roma_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_indigenous_andor_roma_rights</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_LGBTQI+_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_LGBTQI+_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_LGBTQI+_rights</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_racial_equity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_racial_equity]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_racial_equity</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_reproductive_freedom_and_bodily_autonomy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_reproductive_freedom_and_bodily_autonomy]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_reproductive_freedom_and_bodily_autonomy</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_person_sexual_reproductive_and_parental_health</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_person_sexual_reproductive_and_parental_health]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_person_sexual_reproductive_and_parental_health</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_civil_rights_and_freedoms</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_civil_rights_and_freedoms]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_civil_rights_and_freedoms</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_disability_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_disability_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_disability_rights</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_economic_and_workers_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_economic_and_workers_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_economic_and_workers_rights</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_education_and_youth_empowerment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_education_and_youth_empowerment]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_education_and_youth_empowerment</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_ending_violence_harassment_and_abuse</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_ending_violence_harassment_and_abuse]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_ending_violence_harassment_and_abuse</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_environmental_justice</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_environmental_justice]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_environmental_justice</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_immigrant_and_refugee_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_immigrant_and_refugee_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_immigrant_and_refugee_rights</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_indigenous_andor_roma_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_indigenous_andor_roma_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_indigenous_andor_roma_rights</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_LGBTQI+_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_LGBTQI+_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_LGBTQI+_rights</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_racial_equity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_racial_equity]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_racial_equity</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_reproductive_freedom_and_bodily_autonomy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_reproductive_freedom_and_bodily_autonomy]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_reproductive_freedom_and_bodily_autonomy</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_person_sexual_reproductive_and_parental_health</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_person_sexual_reproductive_and_parental_health]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_person_sexual_reproductive_and_parental_health</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_civil_rights_and_freedoms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_civil_rights_and_freedoms]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_civil_rights_and_freedoms</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_disability_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_disability_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_disability_rights</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_economic_and_workers_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_economic_and_workers_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_economic_and_workers_rights</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_education_and_youth_empowerment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_education_and_youth_empowerment]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_education_and_youth_empowerment</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_ending_violence_harassment_and_abuse</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_ending_violence_harassment_and_abuse]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_ending_violence_harassment_and_abuse</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_environmental_justice</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_environmental_justice]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_environmental_justice</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_immigrant_and_refugee_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_immigrant_and_refugee_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_immigrant_and_refugee_rights</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_indigenous_andor_roma_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_indigenous_andor_roma_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_indigenous_andor_roma_rights</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_LGBTQI+_rights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_LGBTQI+_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_LGBTQI+_rights</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_racial_equity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_racial_equity]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_racial_equity</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_reproductive_freedom_and_bodily_autonomy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_reproductive_freedom_and_bodily_autonomy]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_reproductive_freedom_and_bodily_autonomy</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_city_sexual_reproductive_and_parental_health</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[issue_city_sexual_reproductive_and_parental_health]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>issue_city_sexual_reproductive_and_parental_health</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_civil_rights_and_freedoms</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_civil_rights_and_freedoms]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_civil_rights_and_freedoms</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_disability_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_disability_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_disability_rights</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_economic_and_workers_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_economic_and_workers_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_economic_and_workers_rights</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_education_and_youth_empowerment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_education_and_youth_empowerment]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_education_and_youth_empowerment</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_ending_violence_harassment_and_abuse</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_ending_violence_harassment_and_abuse]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_ending_violence_harassment_and_abuse</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_environmental_justice</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_environmental_justice]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_environmental_justice</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_immigrant_and_refugee_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_immigrant_and_refugee_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_immigrant_and_refugee_rights</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_indigenous_andor_roma_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_indigenous_andor_roma_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_indigenous_andor_roma_rights</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_LGBTQI+_rights</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_LGBTQI+_rights]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_LGBTQI+_rights</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_racial_equity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_racial_equity]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_racial_equity</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_reproductive_freedom_and_bodily_autonomy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_reproductive_freedom_and_bodily_autonomy]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_reproductive_freedom_and_bodily_autonomy</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrier_city_sexual_reproductive_and_parental_health</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrier_city_sexual_reproductive_and_parental_health]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>barrier_city_sexual_reproductive_and_parental_health</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npo_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npo_1]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>npo_1</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npo_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npo_2]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>npo_2</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npo_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npo_3]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>npo_3</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>progress_10_years</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[progress_10_years]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>progress_10_years</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npo_1_tr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npo_1_tr]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>npo_1_tr</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npo_2_tr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npo_2_tr]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>npo_2_tr</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npo_3_tr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npo_3_tr]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>npo_3_tr</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>progress_10_years_tr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[progress_10_years_tr]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>progress_10_years_tr</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>language</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[language]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>language</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>langauge_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[langauge_score]</local-name>
+            <parent-name>[globalcount_data.csv]</parent-name>
+            <remote-alias>langauge_score</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='globalcount_data.csv' datatype='table' name='[__tableau_internal_object_id__].[globalcount_data.csv_A729C1FCB6C541FBB2D5977EF82D31BF]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='string' name='[age]' role='dimension' type='nominal' />
+      <column caption='Asian' datatype='integer' name='[asian]' role='measure' type='quantitative' />
+      <column caption='barrier city LGBTQI+ rights' datatype='string' name='[barrier_city_LGBTQI+_rights]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Civil Rights And Freedoms' datatype='string' name='[barrier_city_civil_rights_and_freedoms]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Disability Rights' datatype='string' name='[barrier_city_disability_rights]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Economic And Workers Rights' datatype='string' name='[barrier_city_economic_and_workers_rights]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Education And Youth Empowerment' datatype='string' name='[barrier_city_education_and_youth_empowerment]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Ending Violence Harassment And Abuse' datatype='string' name='[barrier_city_ending_violence_harassment_and_abuse]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Environmental Justice' datatype='string' name='[barrier_city_environmental_justice]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Immigrant And Refugee Rights' datatype='string' name='[barrier_city_immigrant_and_refugee_rights]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Indigenous Andor Roma Rights' datatype='string' name='[barrier_city_indigenous_andor_roma_rights]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Racial Equity' datatype='string' name='[barrier_city_racial_equity]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Reproductive Freedom And Bodily Autonomy' datatype='string' name='[barrier_city_reproductive_freedom_and_bodily_autonomy]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Barrier City Sexual Reproductive And Parental Health' datatype='string' name='[barrier_city_sexual_reproductive_and_parental_health]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='barrier person LGBTQI+ rights' datatype='string' name='[barrier_person_LGBTQI+_rights]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Civil Rights And Freedoms' datatype='string' name='[barrier_person_civil_rights_and_freedoms]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Disability Rights' datatype='string' name='[barrier_person_disability_rights]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Economic And Workers Rights' datatype='string' name='[barrier_person_economic_and_workers_rights]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Education And Youth Empowerment' datatype='string' name='[barrier_person_education_and_youth_empowerment]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Ending Violence Harassment And Abuse' datatype='string' name='[barrier_person_ending_violence_harassment_and_abuse]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Environmental Justice' datatype='string' name='[barrier_person_environmental_justice]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Immigrant And Refugee Rights' datatype='string' name='[barrier_person_immigrant_and_refugee_rights]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Indigenous Andor Roma Rights' datatype='string' name='[barrier_person_indigenous_andor_roma_rights]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Reproductive Freedom And Bodily Autonomy' datatype='string' name='[barrier_person_reproductive_freedom_and_bodily_autonomy]' role='dimension' type='nominal' />
+      <column caption='Barrier Person Sexual Reproductive And Parental Health' datatype='string' name='[barrier_person_sexual_reproductive_and_parental_health]' role='dimension' type='nominal' />
+      <column caption='Barrier Racial Equity' datatype='string' name='[barrier_racial_equity]' role='dimension' type='nominal' />
+      <column caption='Biracial Or Mixed' datatype='integer' name='[biracial_or_mixed]' role='measure' type='quantitative' />
+      <column caption='Black Or Of African Descent' datatype='integer' name='[black_or_of_african_descent]' role='measure' type='quantitative' />
+      <column caption='Choose Not To Identify' datatype='integer' name='[choose_not_to_identify]' role='measure' type='quantitative' />
+      <column caption='Cisgender Man' datatype='integer' name='[cisgender_man]' role='measure' type='quantitative' />
+      <column caption='Cisgender Woman' datatype='integer' name='[cisgender_woman]' role='measure' type='quantitative' />
+      <column caption='City Town' datatype='string' name='[city_town]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='City Town Tr' datatype='string' name='[city_town_tr]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Country Of Residence' datatype='string' name='[country_of_residence]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;British Virgin Island&quot;' value='&quot;United Kingdom&quot;' />
+          <semantic-value key='&quot;Palestine (State of)&quot;' value='&quot;Palestinian Territories&quot;' />
+          <semantic-value key='&quot;South Korea (Republic of)&quot;' value='&quot;South Korea&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Gender Choose Not To Identify' datatype='integer' name='[gender_choose_not_to_identify]' role='measure' type='quantitative' />
+      <column caption='Gender Not Listed' datatype='integer' name='[gender_not_listed]' role='measure' type='quantitative' />
+      <column caption='Hispanic Or Latinx' datatype='integer' name='[hispanic_or_latinx]' role='measure' type='quantitative' />
+      <column caption='Indigenous' datatype='integer' name='[indigenous]' role='measure' type='quantitative' />
+      <column caption='Indigenous Central Or South American' datatype='integer' name='[indigenous_central_or_south_american]' role='measure' type='quantitative' />
+      <column datatype='string' name='[iso3166]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='issue city LGBTQI+ rights' datatype='integer' name='[issue_city_LGBTQI+_rights]' role='measure' type='quantitative' />
+      <column caption='Issue City Civil Rights And Freedoms' datatype='integer' name='[issue_city_civil_rights_and_freedoms]' role='measure' type='quantitative' />
+      <column caption='Issue City Disability Rights' datatype='integer' name='[issue_city_disability_rights]' role='measure' type='quantitative' />
+      <column caption='Issue City Economic And Workers Rights' datatype='integer' name='[issue_city_economic_and_workers_rights]' role='measure' type='quantitative' />
+      <column caption='Issue City Education And Youth Empowerment' datatype='integer' name='[issue_city_education_and_youth_empowerment]' role='measure' type='quantitative' />
+      <column caption='Issue City Ending Violence Harassment And Abuse' datatype='integer' name='[issue_city_ending_violence_harassment_and_abuse]' role='measure' type='quantitative' />
+      <column caption='Issue City Environmental Justice' datatype='integer' name='[issue_city_environmental_justice]' role='measure' type='quantitative' />
+      <column caption='Issue City Immigrant And Refugee Rights' datatype='integer' name='[issue_city_immigrant_and_refugee_rights]' role='measure' type='quantitative' />
+      <column caption='Issue City Indigenous Andor Roma Rights' datatype='integer' name='[issue_city_indigenous_andor_roma_rights]' role='measure' type='quantitative' />
+      <column caption='Issue City Racial Equity' datatype='integer' name='[issue_city_racial_equity]' role='measure' type='quantitative' />
+      <column caption='Issue City Reproductive Freedom And Bodily Autonomy' datatype='integer' name='[issue_city_reproductive_freedom_and_bodily_autonomy]' role='measure' type='quantitative' />
+      <column caption='Issue City Sexual Reproductive And Parental Health' datatype='integer' name='[issue_city_sexual_reproductive_and_parental_health]' role='measure' type='quantitative' />
+      <column caption='issue person LGBTQI+ rights' datatype='integer' name='[issue_person_LGBTQI+_rights]' role='measure' type='quantitative' />
+      <column caption='Issue Person Civil Rights And Freedoms' datatype='integer' name='[issue_person_civil_rights_and_freedoms]' role='measure' type='quantitative' />
+      <column caption='Issue Person Disability Rights' datatype='integer' name='[issue_person_disability_rights]' role='measure' type='quantitative' />
+      <column caption='Issue Person Economic And Workers Rights' datatype='integer' name='[issue_person_economic_and_workers_rights]' role='measure' type='quantitative' />
+      <column caption='Issue Person Education And Youth Empowerment' datatype='integer' name='[issue_person_education_and_youth_empowerment]' role='measure' type='quantitative' />
+      <column caption='Issue Person Ending Violence Harassment And Abuse' datatype='integer' name='[issue_person_ending_violence_harassment_and_abuse]' role='measure' type='quantitative' />
+      <column caption='Issue Person Environmental Justice' datatype='integer' name='[issue_person_environmental_justice]' role='measure' type='quantitative' />
+      <column caption='Issue Person Immigrant And Refugee Rights' datatype='integer' name='[issue_person_immigrant_and_refugee_rights]' role='measure' type='quantitative' />
+      <column caption='Issue Person Indigenous Andor Roma Rights' datatype='integer' name='[issue_person_indigenous_andor_roma_rights]' role='measure' type='quantitative' />
+      <column caption='Issue Person Racial Equity' datatype='integer' name='[issue_person_racial_equity]' role='measure' type='quantitative' />
+      <column caption='Issue Person Reproductive Freedom And Bodily Autonomy' datatype='integer' name='[issue_person_reproductive_freedom_and_bodily_autonomy]' role='measure' type='quantitative' />
+      <column caption='Issue Person Sexual Reproductive And Parental Health' datatype='integer' name='[issue_person_sexual_reproductive_and_parental_health]' role='measure' type='quantitative' />
+      <column caption='Langauge Score' datatype='real' name='[langauge_score]' role='measure' type='quantitative' />
+      <column caption='Language' datatype='string' name='[language]' role='dimension' type='nominal' />
+      <column caption='Man' datatype='integer' name='[man]' role='measure' type='quantitative' />
+      <column caption='Middle Eastern' datatype='integer' name='[middle_eastern]' role='measure' type='quantitative' />
+      <column caption='Native American' datatype='integer' name='[native_american]' role='measure' type='quantitative' />
+      <column caption='Native Hawaiian' datatype='integer' name='[native_hawaiian]' role='measure' type='quantitative' />
+      <column caption='Non Conforming Or Non Binary' datatype='integer' name='[non_conforming_or_non_binary]' role='measure' type='quantitative' />
+      <column caption='North African' datatype='integer' name='[north_african]' role='measure' type='quantitative' />
+      <column caption='Npo 1' datatype='string' name='[npo_1]' role='dimension' type='nominal' />
+      <column caption='Npo 1 Tr' datatype='string' name='[npo_1_tr]' role='dimension' type='nominal' />
+      <column caption='Npo 2' datatype='string' name='[npo_2]' role='dimension' type='nominal' />
+      <column caption='Npo 2 Tr' datatype='string' name='[npo_2_tr]' role='dimension' type='nominal' />
+      <column caption='Npo 3' datatype='string' name='[npo_3]' role='dimension' type='nominal' />
+      <column caption='Npo 3 Tr' datatype='string' name='[npo_3_tr]' role='dimension' type='nominal' />
+      <column caption='Pacific Islander' datatype='integer' name='[pacific_islander]' role='measure' type='quantitative' />
+      <column caption='Progress 10 Years' datatype='string' name='[progress_10_years]' role='dimension' type='nominal' />
+      <column caption='Progress 10 Years Tr' datatype='string' name='[progress_10_years_tr]' role='dimension' type='nominal' />
+      <column caption='Racial Identity Not Listed' datatype='integer' name='[racial_identity_not_listed]' role='measure' type='quantitative' />
+      <column caption='Row Id' datatype='integer' name='[row_id]' role='dimension' type='ordinal' />
+      <column caption='South Asian' datatype='integer' name='[south_asian]' role='measure' type='quantitative' />
+      <column caption='Southeast Asian' datatype='integer' name='[southeast_asian]' role='measure' type='quantitative' />
+      <column caption='Survey Type' datatype='string' name='[survey_type]' role='dimension' type='nominal' />
+      <column caption='Transgender Man' datatype='integer' name='[transgender_man]' role='measure' type='quantitative' />
+      <column caption='Transgender Woman' datatype='integer' name='[transgender_woman]' role='measure' type='quantitative' />
+      <column caption='Unique Id' datatype='real' name='[unique_id]' role='dimension' type='ordinal' />
+      <column caption='White' datatype='integer' name='[white]' role='measure' type='quantitative' />
+      <column caption='Woman' datatype='integer' name='[woman]' role='measure' type='quantitative' />
+      <column-instance column='[country_of_residence]' derivation='None' name='[none:country_of_residence:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:country_of_residence:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Syrian Arab Republic&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Turks and Caicos&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Andorra&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;United Kingdom of Great Britain and Northern Ireland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;San Marino&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Holy See&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Russian Federation&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Venezuela (Bolivarian Republic of)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kiribati&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Montserrat&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Swaziland&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United States of America&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Somalia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;South Korea (Republic of)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tonga&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Anguilla&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;British Virgin Island&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bahamas&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Liechtenstein&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;The former Yugoslav Republic of North Macedonia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cayman Islands&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Timor-Leste&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Belize&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Palestine (State of)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;South ?Sudan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cabo Verde&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nauru&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Antigua and Barbuda&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Democratic People&apos;s Republic of Korea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Republic of Moldova&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bolivia (Plurinational State of)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Côte D&apos;Ivoire&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Iran (Islamic Republic of)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tanzania (United Republic of)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[City].[Name]' value='%null%' />
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='globalcount_data.csv' id='globalcount_data.csv_A729C1FCB6C541FBB2D5977EF82D31BF'>
+            <properties context=''>
+              <relation connection='textscan.1ncwnuv1lpe4vi15y0pa8196jh5f' name='globalcount_data.csv' table='[globalcount_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='row_id' ordinal='0' />
+                  <column datatype='real' name='unique_id' ordinal='1' />
+                  <column datatype='string' name='survey_type' ordinal='2' />
+                  <column datatype='string' name='iso3166' ordinal='3' />
+                  <column datatype='datetime' name='surveydate' ordinal='4' />
+                  <column datatype='string' name='city_town' ordinal='5' />
+                  <column datatype='string' name='city_town_tr' ordinal='6' />
+                  <column datatype='string' name='country_of_residence' ordinal='7' />
+                  <column datatype='integer' name='gender_not_listed' ordinal='8' />
+                  <column datatype='integer' name='cisgender_man' ordinal='9' />
+                  <column datatype='integer' name='cisgender_woman' ordinal='10' />
+                  <column datatype='integer' name='non_conforming_or_non_binary' ordinal='11' />
+                  <column datatype='integer' name='gender_choose_not_to_identify' ordinal='12' />
+                  <column datatype='integer' name='man' ordinal='13' />
+                  <column datatype='integer' name='transgender_man' ordinal='14' />
+                  <column datatype='integer' name='transgender_woman' ordinal='15' />
+                  <column datatype='integer' name='woman' ordinal='16' />
+                  <column datatype='integer' name='racial_identity_not_listed' ordinal='17' />
+                  <column datatype='integer' name='asian' ordinal='18' />
+                  <column datatype='integer' name='biracial_or_mixed' ordinal='19' />
+                  <column datatype='integer' name='black_or_of_african_descent' ordinal='20' />
+                  <column datatype='integer' name='hispanic_or_latinx' ordinal='21' />
+                  <column datatype='integer' name='choose_not_to_identify' ordinal='22' />
+                  <column datatype='integer' name='indigenous' ordinal='23' />
+                  <column datatype='integer' name='indigenous_central_or_south_american' ordinal='24' />
+                  <column datatype='integer' name='middle_eastern' ordinal='25' />
+                  <column datatype='integer' name='native_american' ordinal='26' />
+                  <column datatype='integer' name='native_hawaiian' ordinal='27' />
+                  <column datatype='integer' name='north_african' ordinal='28' />
+                  <column datatype='integer' name='pacific_islander' ordinal='29' />
+                  <column datatype='integer' name='south_asian' ordinal='30' />
+                  <column datatype='integer' name='southeast_asian' ordinal='31' />
+                  <column datatype='integer' name='white' ordinal='32' />
+                  <column datatype='string' name='age' ordinal='33' />
+                  <column datatype='integer' name='issue_person_civil_rights_and_freedoms' ordinal='34' />
+                  <column datatype='integer' name='issue_person_disability_rights' ordinal='35' />
+                  <column datatype='integer' name='issue_person_economic_and_workers_rights' ordinal='36' />
+                  <column datatype='integer' name='issue_person_education_and_youth_empowerment' ordinal='37' />
+                  <column datatype='integer' name='issue_person_ending_violence_harassment_and_abuse' ordinal='38' />
+                  <column datatype='integer' name='issue_person_environmental_justice' ordinal='39' />
+                  <column datatype='integer' name='issue_person_immigrant_and_refugee_rights' ordinal='40' />
+                  <column datatype='integer' name='issue_person_indigenous_andor_roma_rights' ordinal='41' />
+                  <column datatype='integer' name='issue_person_LGBTQI+_rights' ordinal='42' />
+                  <column datatype='integer' name='issue_person_racial_equity' ordinal='43' />
+                  <column datatype='integer' name='issue_person_reproductive_freedom_and_bodily_autonomy' ordinal='44' />
+                  <column datatype='integer' name='issue_person_sexual_reproductive_and_parental_health' ordinal='45' />
+                  <column datatype='string' name='barrier_person_civil_rights_and_freedoms' ordinal='46' />
+                  <column datatype='string' name='barrier_person_disability_rights' ordinal='47' />
+                  <column datatype='string' name='barrier_person_economic_and_workers_rights' ordinal='48' />
+                  <column datatype='string' name='barrier_person_education_and_youth_empowerment' ordinal='49' />
+                  <column datatype='string' name='barrier_person_ending_violence_harassment_and_abuse' ordinal='50' />
+                  <column datatype='string' name='barrier_person_environmental_justice' ordinal='51' />
+                  <column datatype='string' name='barrier_person_immigrant_and_refugee_rights' ordinal='52' />
+                  <column datatype='string' name='barrier_person_indigenous_andor_roma_rights' ordinal='53' />
+                  <column datatype='string' name='barrier_person_LGBTQI+_rights' ordinal='54' />
+                  <column datatype='string' name='barrier_racial_equity' ordinal='55' />
+                  <column datatype='string' name='barrier_person_reproductive_freedom_and_bodily_autonomy' ordinal='56' />
+                  <column datatype='string' name='barrier_person_sexual_reproductive_and_parental_health' ordinal='57' />
+                  <column datatype='integer' name='issue_city_civil_rights_and_freedoms' ordinal='58' />
+                  <column datatype='integer' name='issue_city_disability_rights' ordinal='59' />
+                  <column datatype='integer' name='issue_city_economic_and_workers_rights' ordinal='60' />
+                  <column datatype='integer' name='issue_city_education_and_youth_empowerment' ordinal='61' />
+                  <column datatype='integer' name='issue_city_ending_violence_harassment_and_abuse' ordinal='62' />
+                  <column datatype='integer' name='issue_city_environmental_justice' ordinal='63' />
+                  <column datatype='integer' name='issue_city_immigrant_and_refugee_rights' ordinal='64' />
+                  <column datatype='integer' name='issue_city_indigenous_andor_roma_rights' ordinal='65' />
+                  <column datatype='integer' name='issue_city_LGBTQI+_rights' ordinal='66' />
+                  <column datatype='integer' name='issue_city_racial_equity' ordinal='67' />
+                  <column datatype='integer' name='issue_city_reproductive_freedom_and_bodily_autonomy' ordinal='68' />
+                  <column datatype='integer' name='issue_city_sexual_reproductive_and_parental_health' ordinal='69' />
+                  <column datatype='string' name='barrier_city_civil_rights_and_freedoms' ordinal='70' />
+                  <column datatype='string' name='barrier_city_disability_rights' ordinal='71' />
+                  <column datatype='string' name='barrier_city_economic_and_workers_rights' ordinal='72' />
+                  <column datatype='string' name='barrier_city_education_and_youth_empowerment' ordinal='73' />
+                  <column datatype='string' name='barrier_city_ending_violence_harassment_and_abuse' ordinal='74' />
+                  <column datatype='string' name='barrier_city_environmental_justice' ordinal='75' />
+                  <column datatype='string' name='barrier_city_immigrant_and_refugee_rights' ordinal='76' />
+                  <column datatype='string' name='barrier_city_indigenous_andor_roma_rights' ordinal='77' />
+                  <column datatype='string' name='barrier_city_LGBTQI+_rights' ordinal='78' />
+                  <column datatype='string' name='barrier_city_racial_equity' ordinal='79' />
+                  <column datatype='string' name='barrier_city_reproductive_freedom_and_bodily_autonomy' ordinal='80' />
+                  <column datatype='string' name='barrier_city_sexual_reproductive_and_parental_health' ordinal='81' />
+                  <column datatype='string' name='npo_1' ordinal='82' />
+                  <column datatype='string' name='npo_2' ordinal='83' />
+                  <column datatype='string' name='npo_3' ordinal='84' />
+                  <column datatype='string' name='progress_10_years' ordinal='85' />
+                  <column datatype='string' name='npo_1_tr' ordinal='86' />
+                  <column datatype='string' name='npo_2_tr' ordinal='87' />
+                  <column datatype='string' name='npo_3_tr' ordinal='88' />
+                  <column datatype='string' name='progress_10_years_tr' ordinal='89' />
+                  <column datatype='string' name='language' ordinal='90' />
+                  <column datatype='real' name='langauge_score' ordinal='91' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalcount_data' name='federated.1txub5c0nalh0l1g4wc8s17ph6yv' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1txub5c0nalh0l1g4wc8s17ph6yv'>
+            <column datatype='string' name='[iso3166]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column-instance column='[iso3166]' derivation='None' name='[none:iso3166:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1txub5c0nalh0l1g4wc8s17ph6yv].[Longitude (generated)]' field-type='quantitative' max='26579745.760132369' min='-13495270.925446138' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1txub5c0nalh0l1g4wc8s17ph6yv].[Latitude (generated)]' field-type='quantitative' max='14351382.892889531' min='-9088105.8791309241' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1txub5c0nalh0l1g4wc8s17ph6yv].[none:iso3166:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1txub5c0nalh0l1g4wc8s17ph6yv].[Latitude (generated)]</rows>
+        <cols>[federated.1txub5c0nalh0l1g4wc8s17ph6yv].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{BF0A4AA4-3325-45C1-AB1D-CAAC91CEDB5A}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1txub5c0nalh0l1g4wc8s17ph6yv].[none:iso3166:nk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1txub5c0nalh0l1g4wc8s17ph6yv].[none:city_town:nk]</field>
+            <field>[federated.1txub5c0nalh0l1g4wc8s17ph6yv].[none:iso3166:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{30AC58A0-0AAE-48F7-B4E9-FF5B3DD58FE4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

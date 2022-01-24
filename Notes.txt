@@ -1,0 +1,3 @@
+1. _tr is appended to the end of a column to denote translation from another language. Whenever you encounter _tr, please see associated translation confidence score.
+2. We need to find a proper method to weigh sample weights.
+When analysing responses, some countries have responded disproportionately more than others. So, we will need a way to take this into account.
